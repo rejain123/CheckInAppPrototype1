@@ -1,0 +1,52 @@
+.App {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+
+.app_personalInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_personalInputs{
+  margin: 18px;
+  width: 150px;
+  height: 15px;
+}
+
+.app_saveButton{
+  margin: 10px;
+}
+.app_checkinPage{
+  align-items: center;
+
+}
+
+.app_checkin{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+.app_checkbox{
+  width: 15px;
+  height: 25px;
+  margin-left: 10px;
+}
+.app_checkin > p{
+  margin-left: 30px;
+}
+
+.app_submit{
+  width: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left:30px ;
+}
+
+.app_statsDetails{
+  margin-left: 20px;
+}
